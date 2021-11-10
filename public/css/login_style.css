@@ -138,3 +138,46 @@ p:nth-child(6) {
   font-size: 13px;
   word-spacing: 1px;
 }
+@media only screen and (max-width: 1700px) {
+  .navlink {
+    padding: 19px;
+    margin-top: 5px;
+    margin-right: 13%;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .navlink {
+    padding: 17px;
+    margin-top: 5px;
+    margin-right: 10%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .navlink {
+    padding: 17px;
+    margin-top: 5px;
+    margin-right: 2%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .navlink {
+    padding: 17px;
+    margin-top: 5px;
+    margin-right: 2%;
+  }
+  .inputbox {
+    width: 500px;
+    border: none;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .navlink {
+    padding: 17px;
+    margin-top: 5px;
+    margin-right: 1%;
+  }
+  .inputbox {
+    width: 450px;
+    border: none;
+  }
+}
